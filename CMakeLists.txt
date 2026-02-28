@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.01)
+cmake_minimum_required(VERSION 3.10)
 project(A-plus-B)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(${project_source_dir}/)
+include_directories(${PROJECT_SOURCE_DIR}/)
 
 add_executable(code solution.cpp)
